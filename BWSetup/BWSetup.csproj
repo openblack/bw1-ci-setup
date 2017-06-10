@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BWSetup</RootNamespace>
-    <AssemblyName>BWSetup</AssemblyName>
+    <AssemblyName>CISetup</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -58,7 +58,7 @@
     <StartupObject>BWSetup.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>black.ico</ApplicationIcon>
+    <ApplicationIcon>ci.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -111,7 +111,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="black.ico" />
+    <Content Include="ci.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
